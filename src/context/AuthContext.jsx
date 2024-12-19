@@ -8,7 +8,7 @@ export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
     const navigate = useNavigate();
-    const BASE_URL = "http://localhost:3000";
+    const BASE_URL = "https://chat-appb.up.railway.app";
 
     // some global states
     const [authUser, setAuthUser] = useState(null);
